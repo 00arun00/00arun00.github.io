@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Resume</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Arun Joseph</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
@@ -44,10 +44,10 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#Projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#Projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -105,22 +105,128 @@
         </div>
       </section>
 
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-4">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <p class="mb-0"><a href ="http://cseweb.ucsd.edu/groups/guru/#research">The Cottrell Lab, Graduate Student Researcher</a></p>
+
+              <p>Speeding up natural products discovery using Deep Learning (SMART)</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2018 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <p class="mb-0"><a href ="http://www.sdsc.edu/">San Diego Supercomputer Center (SDSC), Graduate Student Researcher</a></p>
+              <p>Aiding doctors in pulmonary heart disease detection from MRI, CT and Echo-cardiogram data</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2018 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <p class="mb-0"><a href ="http://www.svcl.ucsd.edu/">Statistical Visual Computing Lab (SVCL), Graduate Student Researcher</a></p>
+              <p>Exploring the role of context in object detection</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Jan 2018 - April 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <p class="mb-0"><a href ="http://www.ti.com/">Texas Instruments (TI), Analog Design Engineer</a></p>
+              <p>Incharge of designing and validating high precision SAR ADCs</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2015 - June 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <p class="mb-0"><a href ="http://sattvamedtech.com/">Sattva MedTech, Co-Founder</a></p>
+              <p>Co-founded a company in medical devices space (Sattva).  Selected among top 10 tech innovations in
+                2015 by Stanford Business School and FICCI at IIGP 2015.
+                Developed a low-cost portable solution for fetal monitoring in rural India</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">October 2013 - July 2015</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Recommender System for Sparse Datasets</h3>
-              <div class="subheading mb-3">CSE-258A: UCSD</div>
+              <h3 class="mb-0">Small Molecule Accurate Recognition Technology (SMART) to Enhance Natural Products Research</h3>
+              <div class="subheading mb-3">Deep Learning, Clustering, Chemistry</div>
               <ul>
-                  <li>Created a Recommender System that suggest Stores to users based on Google Local Business Database
-                  <li>Designed a system that predicts visits using a hybrid collaborative filter optimized to enhance performance in sparse datasets it obtained a accuracy score of 88.41% in Google local businesses Dataset
-                  <li>Using Latent factor with temporal dynamics designed a rating prediction system that had an RMSE of 0.74549
+                  <li>Working on enhancing the current <a href ='https://www.nature.com/articles/s41598-017-13923-x#Fig4'>SMART project </a>
+                  <li>Enhanced clustering accuracy by augmenting the contrastive loss with coord-conv based auto-encoder loss
+                  <li>Working on mixture decomposition using capsule nets
              </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2017 - Present</span>
+              <span class="text-primary">[PyTorch, Hyperopt]</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Dynamic Switching Controllers for varying environmental dyamics</h3>
+              <div class="subheading mb-3">Reinforcement Learning</div>
+              <ul>
+                  <li>Created a generalized framework for augmenting model free algorithms for dealing with time varying model environmental dynamics
+                  <li>Multiple model ensembles were pre-trained on various environmental dynamics each specilizing on detecting a specific variational class
+                  <li>Designed a Dynamic Switching controller that detected the ideal controller based on the current environmental dynamics
+                  <li>Awarded runner up for best poster award among 46 posters presented <a href='https://drive.google.com/open?id=1e-IlC3huFGizugzRq_r30hJkvLLfIZcO'>(link to poster)</a> <a href='https://drive.google.com/open?id=1fkxbw4dfDhb1NDmGckbSSX-oSzbquFpK'>(link to paper)</a>
+             </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">[PyTorch, Gym]</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Refining Optical Flow estimation making use of semantic information</h3>
+              <div class="subheading mb-3">Computer Vision, Deep Learning, Optical Flow, Semantic Segmentation</div>
+              <ul>
+                  <li>Created a new scalable parallel neural network architecture for estimation of optical flow
+                  <li>Refined the optical flow estimation by joinly predicting semantic segmentation and using the loss as a regularizer
+                  <li>Boosted training speed and overall accuracy by training induvidual parallel networks with custon loss sensitive only for a specific senantic class <a href='https://drive.google.com/open?id=1HKfr1rCUBXUnFHJZtDyCRAUxuCnyjz0t'>(link to paper)</a>
+             </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">[PyTorch]</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Recommender System for Sparse Datasets</h3>
+              <ul>
+                  <li>Created a Recommender System that suggests stores to users based on Google Local Business Database
+                  <li>Designed a system that predicts visits using a hybrid collaborative filter optimized to enhance performance in sparse datasets which obtained an accuracy score of 88.41%
+                  <li>Using Latent Factor model designed a rating prediction system that had an RMSE of 0.74549
+             </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">[Python: Pandas, Numpy]</span>
             </div>
           </div>
 
@@ -138,65 +244,6 @@
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">January 2016 - November 2016</span>
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Graduate Sudent Researcher</h3>
-              <div class="subheading mb-3">Cottrell Lab</div>
-              <p>Working on speeding up natural products discovery using Deep Learning (SMART)</p>
-              <ul>
-                <li> CNN based Siamese Networks for clustering natural products based on their NMR spectra
-                <li> Mixture decomposition and compound isolation using Capsule Networks
-                <li> Improved clustering efficiency by augmenting siamese nets with coord-conv based auto encoder
-              </ul>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2018 - Present</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Analog Design Engineer</h3>
-              <div class="subheading mb-3">Texas Instruments</div>
-              <p>Incharge of designing and validating high precision SAR ADCs.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2015 - June 2017</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Analog Design Engineer</h3>
-              <div class="subheading mb-3">Texas Instruments</div>
-              <p>Incharge of designing and validating high precision SAR ADCs.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2015 - June 2017</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Co-Founder</h3>
-              <div class="subheading mb-3">Sattva MedTech</div>
-              <p>Co-founded a company in medical devices space (Sattva).  Selected among top 10 tech innovations in
-                2015 by Stanford Business School and FICCI at IIGP 2015.
-                Developed a low-cost portable solution for fetal monitoring in rural India.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">October 2013 - July 2015</span>
             </div>
           </div>
 
